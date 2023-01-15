@@ -39,11 +39,15 @@
 		text-transform: uppercase;
 		color: var(--light-color);
 		background-color: var(--blue-color);
-	}
 
-	:hover {
-		border-color: var(--light-color);
-		background-color: transparent;
-		transition: 0.5s;
+		&:hover {
+			border-color: var(--light-color);
+			background-color: transparent;
+			transition: 0.5s;
+		}
+
+		&:last-child {
+			margin: 0;
+		}
 	}
 }
