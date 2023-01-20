@@ -1,15 +1,19 @@
 .tabs {
 	padding: 75px 0 80px;
 
+	&__container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
 	&__title {
 		margin: 0;
 		margin-bottom: 15px;
-		font-family: 'Open Sans', sans-serif;
 		font-weight: 400;
 		font-size: 30px;
 		line-height: 36px;
 		letter-spacing: 5px;
-		text-align: center;
 		text-transform: uppercase;
 		color: var(--pearly-blackberry);
 	}
@@ -17,19 +21,16 @@
 	&__text {
 		margin: 0;
 		margin-bottom: 60px;
-		font-family: 'Open Sans', sans-serif;
 		font-weight: 400;
 		font-size: 17px;
 		line-height: 20px;
 		letter-spacing: 3px;
-		text-align: center;
 		text-transform: uppercase;
 		color: var(--dark-gray);
 	}
 
 	&__btns {
 		display: flex;
-		justify-content: center;
 		margin-bottom: 40px;
 	}
 
@@ -37,7 +38,6 @@
 		margin-right: 16px;
 		border-radius: 4px;
 		padding: 10px 30px;
-		font-family: 'Open Sans', sans-serif;
 		font-weight: 400;
 		font-size: 16px;
 		line-height: 21px;
@@ -66,21 +66,17 @@
 	&__subtitle {
 		margin: 0;
 		margin-bottom: 15px;
-		font-family: 'Open Sans', sans-serif;
 		font-weight: 400;
 		font-size: 31px;
 		line-height: 36px;
-		text-align: center;
 		color: var(--pearly-blackberry);
 	}
 
 	&__subtext {
 		margin: 0;
-		font-family: 'Open Sans', sans-serif;
 		font-weight: 400;
 		font-size: 13px;
 		line-height: 25px;
-		text-align: center;
 		color: var(--light-slate-gray);
 	}
 }
